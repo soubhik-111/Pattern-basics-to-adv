@@ -18,6 +18,7 @@ int main()
     printf("Enter the number of rows and column resp : \t");
     scanf("%d%d", &r, &c);
 
+    printf("Enter the elements : \n");
     for (i = 0; i < r; i++)
     {
         for (j = 0; j < c; j++)
@@ -25,15 +26,6 @@ int main()
             scanf("%d", &a[i][j]);
         }
     }
-
-    // for (i = 0; i < r; i++)
-    // {
-    //     for (j = 0; j < c; j++)
-    //     {
-    //         printf("%d ", a[i][j]);
-    //     }
-    //     printf("\n");
-    // }
 
     num = (r < c) ? r : c;
     k = 0;
